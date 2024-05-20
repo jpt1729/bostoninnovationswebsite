@@ -125,40 +125,47 @@ export default function Information() {
         </div>
       </div>
 
+      <div className="overflow-hidden flex justify-center mx-auto">
+        <p className="mt-2 sm:mt-3 text-2xl sm:text-4xl font-bold text-blue-800">
+          Committed to partnering with local doctors' offices in the Boston area.          </p>
+
+
+      </div>
+
       <div id="new" className="bg-gray-200 flex justify-center">
-  <div className="overflow-hidden">
-    <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <div className="grid gap-10 grid-cols-1 sm:gap-12 lg:grid-cols-3 lg:gap-40">
-        <div className="p-4 bg-gray rounded-lg shadow-md">
-          <h4 className="text-lg sm:text-xl font-semibold text-black">
-            Projects
-          </h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-800">
-            4+
-          </p>
-        </div>
-        <div className="p-4 bg-gray rounded-lg shadow-md">
-          <h4 className="text-lg sm:text-xl font-semibold text-black">
-            College Mentors
-          </h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-800">
-            20+
-          </p>
-        </div>
-        <div className="p-4 bg-gray rounded-lg shadow-md">
-          <h4 className="text-lg sm:text-xl font-semibold text-black">
-            Mentors
-          </h4>
-          <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-800">
-            100+
-          </p>
+        <div className="overflow-hidden">
+          <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+            <div className="grid gap-10 grid-cols-1 sm:gap-12 lg:grid-cols-3 lg:gap-40">
+              <div className="p-4 bg-gray rounded-lg shadow-md">
+                <h4 className="text-lg sm:text-xl font-semibold text-black">
+                  Projects
+                </h4>
+                <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-800">
+                  4+
+                </p>
+              </div>
+              <div className="p-4 bg-gray rounded-lg shadow-md">
+                <h4 className="text-lg sm:text-xl font-semibold text-black">
+                  College Mentors
+                </h4>
+                <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-800">
+                  20+
+                </p>
+              </div>
+              <div className="p-4 bg-gray rounded-lg shadow-md">
+                <h4 className="text-lg sm:text-xl font-semibold text-black">
+                  Mentors
+                </h4>
+                <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-800">
+                  100+
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
-      
+
     </div>
   );
 }
