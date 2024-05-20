@@ -4,6 +4,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import Image from 'next/image';
 
+
+  
+
 const ImageSlider = ({ images }) => {
   const settings = {
     dots: false,
@@ -15,8 +18,7 @@ const ImageSlider = ({ images }) => {
     adaptiveHeight: false,
     centerMode: true,
     centerPadding: "40%", // Adjust this value to change the spacing
-    prevArrow: null,
-    nextArrow: null
+    
     
   };
 
