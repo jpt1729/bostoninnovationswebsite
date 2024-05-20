@@ -31,79 +31,77 @@ export default function Information() {
       </div>
 
       <div className="relative overflow-none mt-5">
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl text-black font-semibold mb-5 text-center">
-          Our Company Leadership:
-        </h2>
+  <h2 className="text-2xl sm:text-3xl lg:text-4xl text-black font-semibold mb-5 text-center">
+    Our Company Leadership:
+  </h2>
 
-        <div className="">
-          <div className="flex flex-wrap justify-center">
+  <div className="">
+    <div className="flex flex-wrap justify-center gap-20">
 
-            <div className="w-96 rounded-lg overflow-none shadow-lg mx-6 flex flex-col">
-              <div className="p-4 flex-1 flex flex-col">
-                <div className="h-80">
-                  <Image
-                    className="w-full h-full object-cover rounded"
-                    src={jamesHillis}
-                    alt="Card image"
-
-                  />
-                </div>
-                <div className="h-20">
-                  <p className="text-gray-500 text-base">Board of Advisors</p>
-                  <div className="text-black font-bold text-xl mb-2">Dr. James Hillis</div>
-                  <p className="text-gray-700 text-base">Director of Neurological Clinical Operations</p>
-                  <p className="text-gray-700 text-base">Digital Clinical Research and Artificial Intelligence</p>
-                  <p className="text-gray-700 text-base mb-4">Organization at Mass General Brigham</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="w-96 rounded-lg overflow-hidden shadow-lg mx-6 flex flex-col">
-              <div className="p-4 flex-1 flex flex-col">
-                <div className="h-80 w-full">
-                  <div className="h-full w-full">
-                    <Image
-                      className="w-full h-full object-cover rounded"
-                      src={irving}
-                      alt="Card image"
-                    />
-                  </div>
-                </div>
-                <div className="h-20">
-                  <p className="text-gray-500 text-base">Founder & CEO</p>
-                  <div className="text-black font-bold text-xl mb-2">Nicholas Irving</div>
-                  <p className="text-gray-700 text-base">McKinsey & Company Intern</p>
-                  <p className="text-gray-700 text-base mb-4">Harvard & MIT program alum</p>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="w-96 rounded-lg overflow-hidden shadow-lg mx-6 flex flex-col">
-              <div className="p-4 flex-1 flex flex-col">
-                <div className="h-80 w-full">
-                  <div className="h-full w-full">
-                    <Image
-                      className="w-full h-full object-none rounded"
-                      src={dougRett}
-                      alt="Card image"
-                    />
-                  </div>
-                </div>
-                <div className="h-40">
-                  <p className="text-gray-500 text-base">Board of Advisors</p>
-                  <div className="text-black font-bold text-xl mb-2">Dr. Doug Rett</div>
-                  <p className="text-gray-700 text-base">Chief of Optometry</p>
-                  <p className="text-gray-700 text-base mb-4">Veteran Affairs New England Region</p>
-                </div>
-              </div>
-            </div>
-
-
-
+      <div className="w-96 rounded-lg overflow-none shadow-lg flex flex-col">
+        <div className="p-4 flex-1 flex flex-col">
+          <div className="h-80">
+            <Image
+              className="w-full h-full object-cover rounded"
+              src={jamesHillis}
+              alt="Card image"
+            />
+          </div>
+          <div className="h-20">
+            <p className="text-gray-500 text-base">Board of Advisors</p>
+            <div className="text-black font-bold text-xl mb-2">Dr. James Hillis</div>
+            <p className="text-gray-700 text-base">Director of Neurological Clinical Operations</p>
+            <p className="text-gray-700 text-base">Digital Clinical Research and Artificial Intelligence</p>
+            <p className="text-gray-700 text-base mb-4">Organization at Mass General Brigham</p>
           </div>
         </div>
       </div>
+
+      <div className="w-96 rounded-lg overflow-hidden shadow-lg flex flex-col">
+        <div className="p-4 flex-1 flex flex-col">
+          <div className="h-80 w-full">
+            <div className="h-full w-full">
+              <Image
+                className="w-full h-full object-cover rounded"
+                src={irving}
+                alt="Card image"
+              />
+            </div>
+          </div>
+          <div className="h-20">
+            <p className="text-gray-500 text-base">Founder & CEO</p>
+            <div className="text-black font-bold text-xl mb-2">Nicholas Irving</div>
+            <p className="text-gray-700 text-base">McKinsey & Company Intern</p>
+            <p className="text-gray-700 text-base mb-4">Harvard & MIT program alum</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="w-96 rounded-lg overflow-hidden shadow-lg flex flex-col">
+        <div className="p-4 flex-1 flex flex-col">
+          <div className="h-80 w-full">
+            <div className="h-full w-full">
+              <Image
+                className="w-full h-full object-none rounded"
+                src={dougRett}
+                alt="Card image"
+              />
+            </div>
+          </div>
+          <div className="h-40">
+            <p className="text-gray-500 text-base">Board of Advisors</p>
+            <div className="text-black font-bold text-xl mb-2">Dr. Doug Rett</div>
+            <p className="text-gray-700 text-base">Chief of Optometry</p>
+            <p className="text-gray-700 text-base mb-4">Veteran Affairs New England Region</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
       <div className=" py-4 relative overflow-hidden">
         <h2 className="flex items-center justify-center text-2xl sm:text-3xl lg:text-4xl text-black font-semibold">
