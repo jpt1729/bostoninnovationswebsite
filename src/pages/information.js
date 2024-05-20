@@ -1,6 +1,7 @@
 import React from "react";
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
+import ImageSlider from '../app/components/ImageSlider';
 
 // const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -145,6 +146,7 @@ export default function Information() {
               </div>
             ))}
           </Slider> */}
+          <ImageSlider images={images} />
         </div>
       </div>
 
